@@ -1,0 +1,54 @@
+*{
+    font-family: 'Mulish', sans-serif;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+body{
+    background-color: rgb(44, 133, 155);
+}
+body, header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    margin: 80px;
+    margin-bottom: 120px;
+    border: 1px solid #fff;
+    padding: 60px 80px;
+}
+
+.cronometer-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time, .btns{
+    display: flex;
+    margin: 20px;
+}
+
+.time div{
+margin: 10px;
+}
+
+.cronometer-body{
+    display: flex;
+    align-content: space-between;
+}
+
+.btn{
+    margin: 10px 35px;
+    font-size: 1em;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+#hundreth{
+    font-size: 1em;
+    font-weight: 200;
+}
